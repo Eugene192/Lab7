@@ -11,7 +11,7 @@ public class AddIfMaxCommand extends Command implements Ask {
     public static final String NAME = "add_if_max";
 
     public AddIfMaxCommand() {
-        super(NAME, "adds an element if its total box office is maximum");
+        super(NAME, "maximum");
     }
 
     @Override
