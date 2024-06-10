@@ -150,7 +150,7 @@ public class CommandInvoker implements CommandVisitor {
         return invoke(() -> {
             try {
                 db.addSpaceMarine(request.getSpaceMarine(), request.getUserCredentials());
-                return new Response(Status.OK, "Movie added successfully");
+                return new Response(Status.OK, "Weapon added successfully");
             } catch (SQLException e) {
                 throw new CommandExecutingException(e.getMessage());
             }
