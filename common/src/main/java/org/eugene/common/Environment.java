@@ -14,7 +14,7 @@ public class Environment {
     private static String DB_CONFIG_FILE_PATH = "db.cfg";
     private static String DB_URL;
 
-    // GOVNOCODE
+   
     static {
         registerCommands();
         loadDBURL();
@@ -55,7 +55,6 @@ public class Environment {
         register(new InfoCommand());
         register(new ClearCommand());
         register(new SortCommand());
-//        register(new PrintFieldAscendingTBOCommand());
         register(new UpdateIdCommand());
         register(new RemoveAtCommand());
         register(new RemoveByIdCommand());
